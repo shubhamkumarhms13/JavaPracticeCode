@@ -13,7 +13,7 @@ public class NaturalNumberSum {
     }
 
     public static int readValidNaturalNumber(Scanner sc) {
-        int n = 0;
+        int n;
         while (true) {
             System.out.print("Enter a natural number: ");
             if (sc.hasNextInt()) {
