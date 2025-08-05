@@ -7,10 +7,11 @@ import java.util.stream.Collectors;
 
 public class CollectValueBasedOnFirstCharacter {
     public static void main(String[] args) {
-        List<String> stringList = Arrays.asList("apple", "banana", "apricot", "carrot", "cart", "buffalo", "bucket","", null);
+        List<String> stringList = Arrays.asList("apple", "banana", "apricot", "carrot", "cart", "buffalo","", "bucket"," ", null);
         Map<Character, List<String>> collect = stringList.stream()
-                .filter(str -> str != null && !str.isEmpty())
+                .filter(str -> str != null)
                 .map(String::trim)
+                .filter(str -> !str.isEmpty())
                 .collect(Collectors.groupingBy(str -> str.charAt(0)));
         System.out.println(collect);
     }
