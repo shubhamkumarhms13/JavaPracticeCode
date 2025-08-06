@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 
 public class CollectValueBasedOnFirstCharacter {
     public static void main(String[] args) {
-        List<String> stringList = Arrays.asList("apple", "banana", "apricot", "carrot", "cart", "buffalo","", "bucket"," ", null);
-        Map<Character, List<String>> collect = stringList.stream()
+        List<String> stringList1 = Arrays.asList("apple", "banana", "apricot", "carrot", "cart", "buffalo","", "bucket"," ", null);
+        Map<Character, List<String>> collect = stringList1.stream()
                 .filter(str -> str != null)
                 .map(String::trim)
                 .filter(str -> !str.isEmpty())
