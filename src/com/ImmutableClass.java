@@ -31,8 +31,11 @@ public final class ImmutableClass {
         names.add("Tommy");
         names.add("Jerry");
         names.add("Bhow");
-        ImmutableClass imc = new ImmutableClass(1, "Harry", names);
+        ImmutableClass imc1 = new ImmutableClass(1, "Harry", names);
         names.add("Meow");
-        System.out.println(imc.getPetNameList());
+        System.out.println(imc1.getPetNameList());
+        ImmutableClass imc2 = new ImmutableClass(2, "Peter", names);
+        names.add("Okay");
+        System.out.println(imc2.getPetNameList());
     }
 }
