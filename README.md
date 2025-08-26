@@ -1,3 +1,3 @@
 **Java Questions**
 
-Daily Questions Practice, here I'm uploading interview practice questions of all types.
+For daily practice, here I'm uploading interview practice questions on all topics in different types.
