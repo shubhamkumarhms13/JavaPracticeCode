@@ -1,1 +1,3 @@
-**Daily Java Practice Questions**
+**Java Questions**
+
+Daily Questions Practice
