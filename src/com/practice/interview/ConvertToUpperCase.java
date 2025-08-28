@@ -15,7 +15,7 @@ public class ConvertToUpperCase {
         }
         return sb.toString();
     }
-
+ 
     public static void main(String[] args) {
         String str = "HELLO4FDGbvcbc";
         System.out.println(toLowerCase(str));
